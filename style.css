@@ -1,0 +1,35 @@
+nav {
+    color: beige;
+    overflow: auto;
+    background-color: white;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+}
+nav h1 a {
+    float: left;
+    color: white;
+}
+nav ul {
+    float: right;
+    list-style: none;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: flex;
+    padding: 15px;
+    margin-right: 70px;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a.current {
+    background-color: none;
+}
+#navbar{
+    margin: 0px;
+    background-color: royalblue;
+}
